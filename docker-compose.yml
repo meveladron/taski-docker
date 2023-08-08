@@ -1,3 +1,4 @@
+# docker-compose.yml
 version: '3'
 
 volumes:
@@ -29,4 +30,4 @@ services:
     volumes:
       - static:/staticfiles
     ports:
-      - 8000:80 
+      - 8000:80
